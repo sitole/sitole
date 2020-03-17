@@ -158,15 +158,25 @@ body {
 }
 
 /**
- * Contact box
+ * Info box
  */
-.boxes .contact-box address span {
-	line-height: 2;
-	font-size: 1.1rem;
+.boxes .info-box {
 	display: block;
+	padding-right: 1.5rem !important;
 }
 
-.boxes .contact-box address span strong {
+.boxes .info-box ul {
+	padding-left: 0 !important;
+	line-height: 2;
+	font-size: 1.1rem;
+	list-style: none;
+}
+
+.boxes .info-box li {
+	list-style: none;
+}
+
+.boxes .info-box  strong {
 	padding-right: 0.8rem;
 }
 
