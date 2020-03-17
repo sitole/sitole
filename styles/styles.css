@@ -75,5 +75,26 @@ body {
 }
 
 .boxes h2 {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
+}
+
+.boxes h3 {
+	font-size: 1.4rem;
+}
+
+/**
+ * Contact box
+ */
+.boxes .contact-box {
+
+}
+
+.boxes .contact-box address span {
+	line-height: 2;
+	font-size: 1.1rem;
+	display: block;
+}
+
+.boxes .contact-box address span strong {
+	padding-right: 0.8rem;
 }
