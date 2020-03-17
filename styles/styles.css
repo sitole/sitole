@@ -7,6 +7,12 @@ body {
 	border: 1px solid #EBEBEB !important;
 }
 
+@media only screen and (max-width: 900px) {
+	.container {
+		padding: 0 !important;
+	}
+}
+
 /**
  * About me
  */
@@ -24,6 +30,9 @@ body {
 	font-weight: bold;
 }
 
+/**
+ * Personal photo
+ */
 .about .image-wrapper {
 	border-radius: 25rem;
 	position: absolute;
@@ -36,9 +45,6 @@ body {
 	padding: 7px;
 }
 
-/**
- * Personal photo
- */
 .about  .image-wrapper {
 	background-color: rgba(243,246,248,.94);
 }
@@ -57,6 +63,26 @@ body {
 	width: 100%;
 }
 
+@media only screen and (max-width: 520px) {
+	.about .image-wrapper {
+		width: 11rem;
+		height: 11rem;
+	}
+
+	.about .image-wrapper img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.about .profile .description {
+		padding-left: 14.5rem;
+	}
+
+	.about .profile .description .more {
+		display: none;
+	}
+}
+
 /**
  * Info boxes
  */
@@ -64,7 +90,21 @@ body {
 	margin-top: 1.25rem;
 	column-gap: 1.25rem;
 	column-count: 2;
-} 
+}
+
+@media only screen and (max-width: 520px) {
+	.boxes {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.boxes {
+		margin-top: 1.25rem;
+		column-gap: 0;
+		column-count: 1;
+	}
+}
 
 .boxes .card {
 	display: inline-block !important;
