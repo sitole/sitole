@@ -1,0 +1,79 @@
+body {
+	background-color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.border {
+	border: 1px solid #EBEBEB !important;
+}
+
+/**
+ * About me
+ */
+.about .profile {
+	position: relative;
+}
+
+.about .profile .description {
+	padding-left: 17.5rem;
+	padding-top: 1rem;
+}
+
+.about .profile .description h1 {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.about .image-wrapper {
+	border-radius: 25rem;
+	position: absolute;
+	width: 14rem;
+	height: 14rem;
+	top: -7rem;
+	left: 1.7rem;
+	z-index: 2;
+	background: white;
+	padding: 7px;
+}
+
+/**
+ * Personal photo
+ */
+.about  .image-wrapper {
+	background-color: rgba(243,246,248,.94);
+}
+
+.about .image-wrapper img {
+	border-radius: 25rem;
+	position: absolute;
+	width: 12.9rem;
+	height: 12.9rem;
+	display: block;
+}
+
+.header-image {
+	background: url("https://i.picsum.photos/id/910/1110/200.jpg");
+	height: 200px;
+	width: 100%;
+}
+
+/**
+ * Info boxes
+ */
+.boxes {
+	margin-top: 1.25rem;
+	column-gap: 1.25rem;
+	column-count: 2;
+} 
+
+.boxes .card {
+	display: inline-block !important;
+	border-radius: 0 !important;
+	margin-top: 1.25rem;
+	text-align: justify;
+	padding: 1.2rem !important;
+}
+
+.boxes h2 {
+	font-size: 1.5rem;
+}
