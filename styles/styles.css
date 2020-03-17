@@ -160,3 +160,23 @@ body {
 .boxes .contact-box address span strong {
 	padding-right: 0.8rem;
 }
+
+/**
+ * My work box
+ */
+.boxes .my-work-box {
+
+}
+
+.boxes .my-work-box .timeline .node img {
+	width: 40px;
+}
+
+.boxes .my-work-box .timeline .node .description {
+	font-size: 0.9rem;
+
+}
+
+.boxes .my-work-box .timeline .node .date {
+	padding-left: 5px;
+}
