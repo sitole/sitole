@@ -36,6 +36,23 @@ body {
 }
 
 /**
+ * Social media
+ */
+.about .social-media {
+
+}
+
+.about .social-media a {
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+.about .social-media a img {
+	width: 40px;
+	height: auto;
+}
+
+/**
  * Personal photo
  */
 .about .image-wrapper {
