@@ -5,6 +5,10 @@ body {
 	font-size: 1.05em;
 }
 
+li {
+	line-height: 2;
+}
+
 .border {
 	border: 1px solid #EBEBEB !important;
 }
