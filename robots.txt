@@ -1,0 +1,3 @@
+Sitemap: https://sitole.cz/sitemap.xml
+User-agent: *
+Disallow:
