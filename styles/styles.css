@@ -206,3 +206,18 @@ li {
 .boxes .my-work-box .timeline .node .date {
 	padding-left: 5px;
 }
+
+/**
+ * Link as target
+ */
+div:target:before {
+	content: "\00a0";
+	padding: 0;
+	margin-top: -1.25rem;
+	margin-left: -1.25rem;
+	background: #e74c3c;
+	position: absolute;
+	display: block;
+	width: calc(100% + 2px);
+	height: 1rem;
+}
