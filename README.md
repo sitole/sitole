@@ -4,7 +4,7 @@ I'm senior software engineer currently working for fintech startup. 💳
 
 - 🔍 AWS and Google cloud platform consultant, API systems architect, Software engineer
 - 🎯 Focusing on **security**, **cloud architecture** and **API systems**
-- 🎨 Terraform, Kotlin, Java, Node.js, React, Node.js
+- 🎨 Terraform, Kotlin, Java, Node.js, React, Docker
 
 More about me on my website: https://www.sitole.cz or Linkedin profile: https://www.linkedin.com/in/jiri-sveceny
 
