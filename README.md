@@ -8,6 +8,6 @@ I'm senior software engineer currently working for fintech startup 💳  and mai
 
 ### Stay in touch with me
 - Linkedin profile (https://www.linkedin.com/in/jiri-sveceny) 🇺🇸
-- Medium.com (https://sveceny.medium.com) 🇺🇸
+- Medium.com (https://me.sitole.cz) 🇺🇸
 - Twitter (https://twitter.com/jirisveceny) 🇨🇿
 - Personal website (https://www.sitole.cz) 🇨🇿
