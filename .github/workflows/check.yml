@@ -1,0 +1,23 @@
+name: 'Repository health-check'
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '19'
+
+      # Install packages & build
+      - name: Install Yarn workspace, init repository
+        run: yarn install
+
+      - name: Run ESLint on whole codebase
+        run: yarn lint

@@ -1,0 +1,32 @@
+{
+  "name": "@sitole/website",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "yarn@3.8.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 80",
+    "check": "yarn biome:format && yarn biome:lint",
+    "biome:lint": "yarn biome lint ./src --apply",
+    "biome:format": "yarn biome format ./src --write"
+  },
+  "dependencies": {
+    "@next/mdx": "^13.5.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-gtm-module": "^2.0.11"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.4",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-gtm-module": "^2.0.1",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "~5.0.4"
+  }
+}
