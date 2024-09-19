@@ -22,6 +22,12 @@ const LandingPage = () => (
             <p>
                 <a href='https://x.com/jirisveceny'>https://twitter.com/jirisveceny</a>
             </p>
+
+            <br/>
+
+            <h4>
+                <a href='https://github.com/sitole.gpg'>GPG Public key available here</a>
+            </h4>
         </center>
     </header>
 )
